@@ -48,13 +48,13 @@
     </style>
 
 </head>
-<body style="background-color:#f2f2f3;color:indianred" >
+<body style="background-color:#f2f2f3;color:indianred">
 
-<audio id="play_song" controls autoplay loop hidden>
+<audio id="play_song" controls  loop hidden>
     <source src="audio/kalyanam.m4a" type="audio/mpeg">
 </audio>
 <div class="col-xs-12 col-md-12 banner curtain-bg" id="banner"
-     style="background-image:url(images/bg-top-right.png),url(images/bg-top-left.png),url(images/bg-top.png),url(images/bg-bot-left.png),url(images/bg-bot-right.png),url(images/bg-bot.png),url(images/bg-right.png),url(images/bg-left-middle.png);background-position:top right,top left,top,bottom left,bottom right,bottom,right,left;">
+     style="background-image:url(images/bg-top-right.png),url(images/bg-top-left.png),url(images/bg-top.png),url(images/bg-bot.png),url(images/bg-right.png),url(images/bg-left-middle.png);background-position:top right,top left,top,bottom,right,left;">
 
     <div class="pot"
          style="background-image:url(images/header_top1.png); background-repeat: repeat-x;width: 1500px;"><br>
@@ -111,37 +111,39 @@
         </center>
     </div>
 
-    <div>
-        <div class="col-xs-6 col-md-6" style="float: left;">
+    <div class="col-xs-6 col-md-6" style="float: left;">
+        <div class="col-xs-12 col-md-12">
             <center>
-                <b style="color: brown;"> Marriage Muhurtam : 20 May, 2022 9:55 PM <br> Dinner : 20 May, 2022 from
+                <b style="color: brown;"> Marriage : 20 May 2022 9:55 PM <br>Dinner: 20 May 2022 from
                     7PM
-                    onwards <br><br></b>
+                    onwards </b>
             </center>
         </div>
-        <div class="col-xs-12 col-md-12" style="color: brown; float: left;">
-            <center>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.2303137083277!2d78.46028011545368!3d17.40073140699877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb976929be56bb%3A0x2f23b8d876b74452!2sMaruti%20Garden!5e0!3m2!1sen!2sus!4v1650493991620!5m2!1sen!2sus"
-                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <br></br>
-                <b>
-                    Maruthi Gardens, 11-4-669, Red Hills,<br> Lakdikapul, Hyderabad - 500004
-                </b>
-            </center>
+        <div class="col-xs-12 col-md-12" style="color: brown; ">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.2303137083277!2d78.46028011545368!3d17.40073140699877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb976929be56bb%3A0x2f23b8d876b74452!2sMaruti%20Garden!5e0!3m2!1sen!2sus!4v1650493991620!5m2!1sen!2sus"
+                    width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br><br>
+            <b>
+                Maruthi Gardens, 11-4-669, Red Hills,<br> Lakdikapul, Hyderabad - 500004
+            </b>
+
         </div>
+    </div>
+    <div class="col-xs-6 col-md-6" style="float: right;">
 
         <div class="col-xs-12 col-md-12">
-            <br><br><br><br><br><br>
+
             <center>
-                <b style="color: brown;"> Vratham : 21 May, 2022 10:00 AM <br> Lunch : 21 May, 2022 from 12 PM
-                    onwards <br><br></b>
+                <b style="color: brown;"> Vratham : 21 May 2022 10:00 AM <br>Lunch: 21 May 2022 from 12 PM
+                    onwards </b>
             </center>
         </div>
         <div class="col-xs-12 col-md-12" style="color: brown;">
             <center>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.8343418106683!2d78.41659741539566!3d17.5154195880021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915dee04ae61%3A0xa476bb8d32d8a745!2sKrishnaveni%20Nilayam!5e0!3m2!1sen!2sus!4v1650496410836!5m2!1sen!2sus"
-                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <br><br>
                 <b>
@@ -150,6 +152,7 @@
             </center>
         </div>
     </div>
+</div>
 </div>
 
 </div>
@@ -162,6 +165,7 @@
     function play_song() {
         document.getElementById('play_song').play()
     }
+
     function pause_song() {
         document.getElementById('play_song').pause()
     }
